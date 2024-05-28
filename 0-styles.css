@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.item-list {
+  display: grid;
+  place-items: center;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+  border: 2.3px solid #787878;
+  background: #e6e6e6;
+  border-radius: 12px;
+  width: 290px;
+  height: 430px;
+  padding-bottom: 45px;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 1fr 2.3fr;
+}
+
+.icon-box {
+  height: 100%;
+  width: 210px;
+  padding: 45px;
+}
+
+.icon-html {
+  background: url('0-sprite.png') no-repeat -35px -85px;
+}
+
+.icon-css {
+  background: url('0-sprite.png') no-repeat -315px -85px;
+}
+
+.icon-js {
+  background: url('0-sprite.png') no-repeat -600px -85px;
+}
