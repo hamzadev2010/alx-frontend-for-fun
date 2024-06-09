@@ -1,0 +1,9 @@
+/* Sass file that assigns ext color specified to elements inside body tags
+Text color specified to any elements of class .red inside body tags */
+
+body {
+  color: #3D3D3D;
+  .red {
+    color: #FF0000; 
+  }
+}
