@@ -1,7 +1,10 @@
-/* sass nested_hover.scss */
+/* sass 6-nested_hover */
+$clr: #FF0000;
+$clrr: #00FF00;
+
 button {
-  color: #FF0000;
-  &:hover {
-    color: #00FF00;
-  }
+    color: $clr;
+    &:hover {
+        color: $clrr;
+    }
 }
