@@ -1,0 +1,17 @@
+/*  Sass file that assigns & The text color specified to the HTML tags body and p */
+
+$txt-c: #3D3D3D;
+$backgr-c: #6D6D6D;
+
+body {
+  color: $txt-c;
+  background-color: $backgr-c;
+}
+
+p {
+  color: $txt-c;
+}
+
+h2 {
+  background-color: $backgr-c;
+}
