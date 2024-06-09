@@ -1,0 +1,15 @@
+/* margin*/
+
+@mixin applyMargin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include applyMargin(10px, 10px);
+}
+
+div {
+  @include applyMargin(15px, 15px);
+}
+
