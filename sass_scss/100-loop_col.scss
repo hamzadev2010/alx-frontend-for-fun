@@ -1,15 +1,9 @@
 /* Sass file that creates classes with different width */
 
+$widths: 100%, 50%, 33.3333333333%, 25%;
+
 @for $element from 1 through 4 {
   .col-#{$element} {
-    @if $element == 1 {
-            width: 100%;
-        } @else if $element == 2 {
-            width: 50%;
-        } @else if $element == 3 {
-            width: 33.3333333333%;
-        } @else if $element == 4 {
-            width: 25%;
-        }
-    }
+    width: nth($widths, $element);
+  }
 }
