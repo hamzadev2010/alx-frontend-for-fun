@@ -1,4 +1,7 @@
 /* Sass file that sorts the variable $list_to_sort and display the sorted list*/
 
 @import '103-sort_list';
-@debug $list_to_sort;
+
+$list_sorted: sort($list_to_sort);
+
+@debug $list_sorted;
