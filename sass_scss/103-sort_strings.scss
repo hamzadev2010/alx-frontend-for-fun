@@ -2,6 +2,4 @@
 
 @import '103-sort_list';
 
-$list_sorted: sort($list_to_sort);
-
-@debug $list_sorted;
+@debug $list_to_sort;
